@@ -71,9 +71,9 @@ def createContent(list):
   f.close()
 if __name__ == '__main__':
   #文章总数
-  count=200
+  count=60
   #每本书中文章数
-  articlesOfBook=50
+  articlesOfBook=60
 
   start=time.time()
   lists=get_list('http://cctv.cntv.cn/lm/xinwenyijiayi/video/index.shtml',count)
